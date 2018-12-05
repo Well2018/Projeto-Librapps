@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.aplicativo.libras.libif.MainActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:gravity="center">
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            app:bootstrapSize="lg"
+            app:roundedCorners="true"
+            app:bootstrapBrand="primary"
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="Insira seu E-mail"
+            android:inputType="text"
+            android:textAlignment="gravity"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            app:bootstrapSize="lg"
+            app:roundedCorners="true"
+            app:bootstrapBrand="primary"
+            android:id="@+id/btnResetSenha"
+            android:inputType="text"
+            android:text="Redefinir"
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>

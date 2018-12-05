@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TelaL"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtProgresso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200sp"
+                android:shadowColor="@color/bootstrap_brand_primary"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1.2"
+                android:text="Questão"
+                android:textColor="@color/bootstrap_brand_primary"
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtPergunta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:shadowColor="@color/bootstrap_brand_primary"
+                android:textColor="@color/bootstrap_brand_primary"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1.2"
+                android:text="Qual das opções abaixo corresponde a imagem?"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgA"
+                android:layout_height="130sp"
+                android:layout_width="160sp"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                />
+
+
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                app:bootstrapSize="lg"
+                app:bootstrapBrand="primary"
+                app:roundedCorners="true"
+                android:id="@+id/btnA"
+                android:text="@string/btnTxtA"
+                android:textColor="#ffffff"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                app:bootstrapSize="lg"
+                app:bootstrapBrand="primary"
+                app:roundedCorners="true"
+                android:id="@+id/btnB"
+                android:text="@string/btnTxtB"
+                android:textColor="#ffffff"
+                android:layout_width="200sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:layout_marginBottom="5dp"/>
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                app:bootstrapSize="lg"
+                app:bootstrapBrand="primary"
+                app:roundedCorners="true"
+                android:id="@+id/btnC"
+                android:text="@string/btnTxtC"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:layout_marginBottom="5dp"/>
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                app:bootstrapSize="lg"
+                app:bootstrapBrand="primary"
+                app:roundedCorners="true"
+                android:id="@+id/btnD"
+                android:text="@string/btnTxtD"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_bg_rounded_corners"
+                android:layout_marginBottom="5dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

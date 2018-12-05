@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.aplicativo.libras.libif.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="130sp"
+                android:layout_height="150sp"
+                app:srcCompat="@drawable/login"
+                android:layout_marginTop="20dp"
+                />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Digite seu E-mail"
+                android:inputType="textEmailAddress"
+                android:textAlignment="gravity"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:roundedCorners="true"
+                app:bootstrapBrand="primary"
+                app:bootstrapSize="lg"/>
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                app:roundedCorners="true"
+                android:id="@+id/edtSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Digite sua senha"
+                android:inputType="textPassword"
+                android:textAlignment="gravity"
+                android:textSize="20dp"
+                app:bootstrapSize="lg"
+                android:textStyle="bold"
+                app:bootstrapBrand="primary"/>
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                app:bootstrapSize="lg"
+                app:roundedCorners="true"
+                app:bootstrapBrand="primary"
+                android:id="@+id/btnEntrar"
+                android:layout_width="145dp"
+                android:layout_height="50dp"
+                android:layout_margin="20dp"
+                android:layout_toLeftOf="@id/btnNovoUsuario"
+                android:bottomRightRadius="7dp"
+                android:text="Entrar"
+                android:textColor="#ffffff"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/btnNovoUsuario"
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:text="Não possui uma conta?\n\t\t\t\tClique aqui!
+                "
+                android:textColor="#aaaaaa"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:shadowRadius="1.2"
+                android:shadowDx="1"
+                android:shadowDy="1"/>
+
+            <TextView
+                android:id="@+id/txtReseteSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="ESQUECI MINHA SENHA!"
+                android:textColor="#aaaaaa"
+                android:textSize="15sp"
+                android:shadowRadius="1.2"
+                android:shadowDx="1"
+                android:shadowDy="1"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
+

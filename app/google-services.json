@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1030884171795",
+    "firebase_url": "https://libif-31bdb.firebaseio.com",
+    "project_id": "libif-31bdb",
+    "storage_bucket": "libif-31bdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030884171795:android:b3f90d1f4c21ccff",
+        "android_client_info": {
+          "package_name": "com.aplicativo.libras.libif"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030884171795-5he2c8fld5kdk6qqmde4m50rlagsm92r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aplicativo.libras.libif",
+            "certificate_hash": "7bc133fc129f2a351d758018238c4d806f504431"
+          }
+        },
+        {
+          "client_id": "1030884171795-bme9nfj7h047820npjij91lpf7b2k0gg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-UIxhqaOdJMXufM5GWuuYEamML303tWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030884171795-bme9nfj7h047820npjij91lpf7b2k0gg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.aplicativo.libras.libif.cadastrosActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+           <!-- <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/CaImg"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/login"
+                android:layout_marginTop="5dp"/> -->
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/uploadImg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adicionar imagem"
+                app:bootstrapBrand="primary"
+                app:bootstrapSize="lg"
+                app:roundedCorners="true"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/txtImg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1.2"
+                android:text="NENHUMA IMAGEM SELECIONADA!" />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/edtNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Digite seu primeiro nome"
+                android:inputType="textEmailAddress"
+                android:textAlignment="gravity"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:bootstrapBrand="primary"
+                app:bootstrapSize="lg"
+                app:roundedCorners="true" />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Digite seu E-mail"
+                android:inputType="textEmailAddress"
+                android:textAlignment="gravity"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:bootstrapBrand="primary"
+                app:bootstrapSize="lg"
+                app:roundedCorners="true" />
+
+            <com.beardedhen.androidbootstrap.BootstrapEditText
+                android:id="@+id/edtSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:hint="Digite sua senha"
+                android:inputType="textPassword"
+                android:textAlignment="gravity"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:bootstrapBrand="primary"
+                app:bootstrapSize="lg"
+                app:roundedCorners="true"
+                />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/btnRegistrar"
+                android:layout_width="145dp"
+                android:layout_height="50dp"
+                android:layout_margin="30dp"
+                android:text="Registrar"
+                android:textColor="#ffffff"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:bootstrapBrand="primary"
+                app:bootstrapSize="lg"
+                app:roundedCorners="true"
+
+                />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/btnVoltar"
+                android:layout_width="145dp"
+                android:layout_height="50dp"
+                android:text="Voltar"
+                android:textColor="#ffffff"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                app:bootstrapBrand="primary"
+                app:bootstrapSize="lg"
+                app:roundedCorners="true"
+                android:layout_marginTop="-5dp"
+
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

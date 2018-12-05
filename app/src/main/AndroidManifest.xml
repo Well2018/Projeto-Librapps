@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aplicativo.libras.libif">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icone_app"
+        android:label="@string/app_name"
+
+        android:roundIcon="@mipmap/ic_icone_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".cadastrosActivity"
+            />
+        <activity android:name=".perfilActivity" />
+        <activity android:name=".Reset_Senha" />
+        <activity
+
+            android:name=".MENUActivity" android:configChanges="keyboardHidden|orientation|keyboard|navigation|screenSize"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TelaD" />
+        <activity android:name=".TelaL" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Ranking" />
+        <activity android:name=".MostraRanking"></activity>
+    </application>
+
+</manifest>
